@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LeetMetric Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <header>
+      <h1>LeetMetric</h1>
+    </header>
+
+    <section class="search-section">
+      <p>Enter your LeetCode username</p>
+      <div class="search-box">
+        <input type="text" id="user-input" placeholder="e.g. rajatgupta1998" />
+        <button id="search-btn">Search</button>
+      </div>
+    </section>
+
+    <!-- 🔥 User Profile Section -->
+    <section class="user-profile" id="user-profile" style="display: none;">
+      <img id="user-avatar" src="" alt="User Avatar" />
+      <h2 id="display-username"></h2>
+    </section>
+
+    <section class="progress-section">
+      <div class="circle easy-progress"><span id="easy-label">--%</span>Easy</div>
+      <div class="circle medium-progress"><span id="medium-label">--%</span>Medium</div>
+      <div class="circle hard-progress"><span id="hard-label">--%</span>Hard</div>
+    </section>
+
+    <section class="stats-card">
+      <!-- Add more stats or summary later -->
+      <p id="total-solved">Solved: -- / --</p>
+      <p id="acceptance-rate">Acceptance Rate: --%</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
