@@ -10,12 +10,6 @@ LeetMetric is a sleek, responsive dashboard that fetches and displays a LeetCode
 
 ---
 
-###  Screenshots
-
-![Screenshot 2025-05-08 232805](https://github.com/user-attachments/assets/59fe001c-8d26-42df-acbb-00a82cdb1a05)
-
----
-
 ### 🛠 Tech Stack
 
 * **Frontend**: HTML, CSS (custom design inspired by LeetCode), Vanilla JavaScript
@@ -66,7 +60,7 @@ LeetMetric is a sleek, responsive dashboard that fetches and displays a LeetCode
 ### 🙌 Credits
 
 * Inspired by LeetCode's user interface
-* Built with ❤️ by \[iamsidh03]
+* Built with ❤️ by \[Satyam raj]
 
 ---
 
